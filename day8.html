@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_form</title>
+</head>
+<body>
+    <pre>
+        <p>
+            <i><b>An HTML form is used to to collect the information/ input from the user, to create this we use form tag. This consist of different elements.
+
+                Input Elemet: it can be type of text, character, radio, button, and submit and etc. we also have a file type.
+    
+                Textarea Element: Defines a multiline text, input, columns, rows attributes can be used to size the textarea. 
+    
+                Select elements: Defines a drop down list.
+    
+                type: this will defines what type of data should be entered in the box.
+    
+                Placeholder: This is an hint to the user, what have to enter in the box
+    
+                Apart of 'text' type, we should create a separate 'id' for all the input type using label tag. By this we can allocate individual properties to all the inputs.</b></i>
+        </p>
+    </pre>
+
+    <div>
+        <h1>Heading of the form</h1><br>
+        <form action="form.php">
+            <input type="text" placeholder=" enter your name"><br><br>
+            <label for="section">
+                <input type="radio" value="sectiona" name="a" id="section">
+            </label><br><br>
+            <label for="check">
+                <input type="checkbox" id="check" name="canteen"> want food
+            </label><br><br>
+            <label for="explain">
+                <textarea name="explain" id="explain" cols="30" rows="10" placeholder="support your answer"></textarea>
+            </label><br><br>
+            <label for="cars">
+                <select name="car" id="cars">
+                    <option value="no-car"> select your car</option>
+                    <option value="omni"> omni car</option>
+                </select>
+            </label><br><br>
+        </form>
+    </div>
+    
+</body>
+</html>
