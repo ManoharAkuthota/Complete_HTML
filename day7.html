@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <pre>
+        <p>we can create tables with n umber of coumns and rows by using the table tag.This tag is consist of different tags like, tr tag, td tag, th tag, thead tag, tbody tag. each tag has its own property and purpose to do in the webpage.
+            tr tag-> used to display the table row.
+            td tag-> used to display table's headings.
+            thead tag-> wrap the table main data like column names and heaadings.
+            tbody-> wrap the inserting data/ the data which we are entering into the table.
+        </p>
+
+        <p> lets create a table</p>
+    </pre>
+
+    <table>
+        <caption>
+            Table of the students score
+        </caption>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Score</th>
+                <th>Branch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Abhiram</td>
+                <td>494</td>
+                <td>MPC</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Abhi</td>
+                <td>497</td>
+                <td>MPC</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Manohar</td>
+                <td>499</td>
+                <td>MPC</td>
+            </tr>
+        </tbody>
+    </table><br>
+
+    <p>ColSpan: This attribute is used to combine the headings of the Table. but the data in th etable remains same.</p><br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>S.no</th>
+                <th> name</th>
+                <th>Score</th>
+                <th colspan="2">Branch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3</td>
+                <td>Manohar</td>
+                <td>499</td>
+                <td>MPC</td>
+            </tr>
+        </tbody>
+    </table>  
+    
+</body>
+</html>
